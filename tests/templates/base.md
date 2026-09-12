@@ -1,0 +1,3 @@
+# {{ title }}
+
+{% block body %}{% endblock %}
