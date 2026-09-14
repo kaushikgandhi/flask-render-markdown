@@ -45,6 +45,11 @@ Changelog = "https://github.com/kaushikgandhi/flask-render-markdown/blob/main/CH
 [project.optional-dependencies]
 html = ["Markdown>=3.4"]
 dev = ["pytest>=7.0", "Markdown>=3.4"]
+docs = [
+    "mkdocs>=1.6,<2",
+    "mkdocs-material>=9.5",
+    "mkdocstrings[python]>=0.24",
+]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/flask_render_markdown"]
