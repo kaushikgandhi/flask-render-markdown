@@ -53,4 +53,10 @@ Requires **Python ≥ 3.9** and **Flask ≥ 2.0**. The PyPI package is `flask-re
 
 ## Used in production
 
-`flask-render-markdown` powers the Markdown responses behind millions of AI-agent requests in production. Using it in your project? [Open an issue or PR](https://github.com/kaushikgandhi/flask-render-markdown/issues) to get listed in the README.
+Projects serving Markdown to AI agents with `flask-render-markdown`:
+
+| Project | Usage |
+| --- | --- |
+| [PrisonAssist](https://prisonassist.com/) | Powers the Markdown responses behind millions of AI-agent requests daily. |
+
+Using it in your project? [Open an issue or PR](https://github.com/kaushikgandhi/flask-render-markdown/issues) to get listed here.
